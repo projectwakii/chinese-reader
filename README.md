@@ -13,6 +13,18 @@ An iPad-mini-first Progressive Web App for reading Chinese. Import a `.txt`, `.e
 
 Vanilla HTML/CSS/ES modules, no framework, no build step. All private data stays in the browser (IndexedDB).
 
+## Use it on an iPad mini now
+
+HTTPS (generic app code only; your documents stay in Safari/IndexedDB on the device):
+
+**https://projectwakii.github.io/chinese-reader/**
+
+1. Open that link in **Safari** on the iPad mini.
+2. Tap **Share** → **Add to Home Screen**.
+3. Rotate to landscape for Chinese | English side by side.
+
+Source: https://github.com/projectwakii/chinese-reader
+
 ## Run it
 
 ```bash
