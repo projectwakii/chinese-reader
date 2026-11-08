@@ -1,0 +1,21 @@
+Chinese Reader — third-party components and data
+
+1. Make Me a Hanzi dictionary (data/dictionary-mmah.txt)
+   Derived from Unihan and CJKlib. Licensed under LGPL-3.0.
+   See data/licenses/COPYING.makemeahanzi, data/licenses/LGPL-3.0.txt, data/licenses/README.makemeahanzi.
+   The file is shipped unmodified and loaded at runtime; it can be replaced by the user.
+
+2. Stroke graphics (data/strokes/*.json; runtime downloads of hanzi-writer-data@2.0.1 from jsDelivr)
+   Make Me a Hanzi graphics derived from Arphic PL fonts. Arphic Public License.
+   See data/licenses/ARPHICPL.txt.
+
+3. Mozilla pdf.js (vendor/pdfjs/) — Apache License 2.0. See vendor/pdfjs/LICENSE.
+   Includes the bundled CMap files (vendor/pdfjs/cmaps/) from Adobe, distributed with pdf.js.
+
+4. JSZip (vendor/jszip/) — dual-licensed MIT or GPLv3; used here under MIT.
+   See vendor/jszip/LICENSE.markdown.
+
+5. Tatoeba example sentences are fetched live at the user's request and are licensed
+   CC-BY 2.0 FR (https://tatoeba.org). Attribution is shown in the UI next to the examples.
+
+6. Machine translation: MyMemory API (Translated srl), called live; no content is bundled.

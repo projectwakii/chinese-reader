@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="中文 Reader">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="description" content="Read Chinese with sentence-aligned English, TTS, spaced repetition and stroke-order practice.">
+  <title>Chinese Reader</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/library"><span lang="zh-CN">中文</span> Reader</a>
+    <nav class="tabbar" aria-label="Main">
+      <a href="#/library" data-tab="library">Library</a>
+      <a href="#/vocab" data-tab="vocab">Words</a>
+      <a href="#/review" data-tab="review">Review <span id="due-badge" class="badge" hidden></span></a>
+      <a href="#/settings" data-tab="settings">Settings</a>
+    </nav>
+  </header>
+  <div id="banner-slot"></div>
+  <main id="main" tabindex="-1"></main>
+  <noscript>Chinese Reader needs JavaScript.</noscript>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

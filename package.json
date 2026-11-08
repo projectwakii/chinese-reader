@@ -1,0 +1,22 @@
+{
+  "name": "chinese-reader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "iPad mini PWA for reading Chinese with aligned translation, TTS, SRS, examples and stroke practice",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test \"test/*.test.js\"",
+    "make-fixtures": "node scripts/make-fixtures.mjs",
+    "vendor": "node scripts/vendor.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.7",
+    "jsdom": "^31.0.0",
+    "jszip": "^3.10.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "playwright": "^1.65.0"
+  }
+}
